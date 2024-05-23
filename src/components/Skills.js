@@ -217,7 +217,7 @@ export default function Skills() {
         </li>
 
         {/* Python */}
-        <li className="flex flex-col items-center px-4 py-3 dark:text-white/80">
+        <li className="flex flex-col items-center px-4 py-3 dark:text-white/80 opacity-100 hover:scale-125 duration-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -301,7 +301,7 @@ export default function Skills() {
         </li>
         {/* Git */}
         <li
-          className="flex flex-col items-center px-4 py-3 dark:text-white/80"
+          className="flex flex-col items-center px-4 py-3 dark:text-white/80 opacity-100 hover:scale-125 duration-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
