@@ -39,7 +39,7 @@ export default function TimelineElement({ title, company, description, date }) {
               marginLeft: "-12px",
               marginTop: "-12px",
             }}
-            stroke="currentColor"
+            stroke="#000000"
             fill="none"
             strokeWidth="0"
             viewBox="0 0 24 24"
@@ -51,7 +51,7 @@ export default function TimelineElement({ title, company, description, date }) {
               fillRule="evenodd"
               clipRule="evenodd"
               d="M17 7C17 5.34315 15.6569 4 14 4H10C8.34315 4 7 5.34315 7 7H6C4.34315 7 3 8.34315 3 10V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V10C21 8.34315 19.6569 7 18 7H17ZM14 6H10C9.44772 6 9 6.44772 9 7H15C15 6.44772 14.5523 6 14 6ZM6 9H18C18.5523 9 19 9.44772 19 10V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18V10C5 9.44772 5.44772 9 6 9Z"
-              fill="currentColor"
+              fill="#000000"
             ></path>
           </svg>
         </span>
@@ -67,7 +67,7 @@ export default function TimelineElement({ title, company, description, date }) {
         >
           <div
             // style="border-right:0.4rem solid #9ca3af"
-            className="border-r-[0.4rem] border-solid border-[#9ca3af] dark:text-black"
+            className="border-r-[0.4rem] border-solid border-[#9ca3af] "
             // class="vertical-timeline-element-content-arrow"
             style={{
               content: "",
@@ -80,8 +80,8 @@ export default function TimelineElement({ title, company, description, date }) {
               borderRight: "0.4rem solid #9ca3af",
             }}
           ></div>
-          <h3 className="font-semibold capitalize">{title}</h3>
-          <p className="font-normal !mt-0">{company}</p>
+          <h3 className="font-semibold capitalize text-black">{title}</h3>
+          <p className="font-normal !mt-0 text-black">{company}</p>
           {/* <p class="!mt-1 !font-normal text-gray-700 dark:text-white/75"> */}
           <ul className="list-disc pl-6">
             {description.map((item) => {
@@ -98,6 +98,7 @@ export default function TimelineElement({ title, company, description, date }) {
               fontWeight: ".875rem",
               display: "inline-block",
             }}
+            className="text-gray-900"
           >
             {date}
           </span>
