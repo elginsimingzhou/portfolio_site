@@ -16,7 +16,7 @@ export default function TimelineElement({ title, company, description, date }) {
         style={{ position: "relative", margin: "2em 0" }}
       >
         <span
-          className="bg-white text-2xl rounded-full"
+          className="bg-white text-2xl rounded-full text-black"
           // class="vertical-timeline-element-icon bounce-in"
           style={{
             position: "absolute",
@@ -67,7 +67,7 @@ export default function TimelineElement({ title, company, description, date }) {
         >
           <div
             // style="border-right:0.4rem solid #9ca3af"
-            className="border-r-[0.4rem] border-solid border-[#9ca3af]"
+            className="border-r-[0.4rem] border-solid border-[#9ca3af] dark:text-black"
             // class="vertical-timeline-element-content-arrow"
             style={{
               content: "",

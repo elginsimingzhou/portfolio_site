@@ -58,7 +58,7 @@ export default function Form() {
       />
       <button
         type="submit"
-        className="group flex items-center justify-center gap-2 h-12 w-32 bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 disabled:scale-100 disabled:bg-opacity-65"
+        className="group flex items-center justify-center gap-2 h-12 w-32 bg-gray-900 text-white dark:bg-gray-200 dark:text-black rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 disabled:scale-100 disabled:bg-opacity-65"
       >
         <input type="submit" value="Send" />
         <svg
