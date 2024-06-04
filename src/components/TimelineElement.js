@@ -80,10 +80,10 @@ export default function TimelineElement({ title, company, description, date }) {
               borderRight: "0.4rem solid #9ca3af",
             }}
           ></div>
-          <h3 className="font-semibold capitalize text-black">{title}</h3>
-          <p className="font-normal !mt-0 text-black">{company}</p>
+          <h3 style={{color:"black"}} className="font-semibold capitalize">{title}</h3>
+          <p style={{color:"black"}}  className="font-normal !mt-0 text-black">{company}</p>
           {/* <p class="!mt-1 !font-normal text-gray-700 dark:text-white/75"> */}
-          <ul className="list-disc pl-6">
+          <ul style={{color:"black"}} className="list-disc pl-6">
             {description.map((item) => {
               return <li key={item}>{item}</li>;
             })}
@@ -97,8 +97,8 @@ export default function TimelineElement({ title, company, description, date }) {
               opacity: 0.7,
               fontWeight: ".875rem",
               display: "inline-block",
+              color: "#1f2937"
             }}
-            className="text-gray-900"
           >
             {date}
           </span>
